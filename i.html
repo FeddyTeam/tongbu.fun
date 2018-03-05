@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>同步fun——同步或记录文字</title>
+
+	<meta name="keywords" content="同步，同步FUN，免登录，记录文字，取字码，同步文字，同步FUN">
+	<meta name="description" content="电脑之间轻松同步文字，记录文字，免登录，极简的同步或记录方式">
+	<meta http-equiv="Cache-control" content="no-cache">
+
+
+
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<!-- <div class="cnt">
+		<input type="textarea" class="string" id="string">
+	</div> -->
+	<div class="uper">
+
+		<div class="nav">
+			<img src="./image/logo.png" alt="" class="logo">
+			<span class="aim">同步fun——同步或记录文字</span>
+			<img src="./image/history.png" alt="" class="history">
+			<!-- 历史列表 -->
+			<!-- <div class="history-list">
+
+				<div class="one-history">
+					<span>阿拉山口地方阿劳卡省地方啊时刻提防,阿拉山口地方阿劳卡省地方啊时刻提防</span>
+					<div class="btn">删除</div>
+					<div class="mark-time">2017 10 10</div>
+				</div>
+				<div class="one-history">
+					<span>阿拉山口地方阿劳卡省地方啊时刻提防</span>
+					<div class="btn">删除</div>
+					<div class="mark-time">2017 10 10</div>
+				</div>
+				<div class="one-history">
+					<span>阿拉山口地方阿劳卡省地方啊时刻提防</span>
+					<div class="btn">删除</div>
+					<div class="mark-time">2017 10 10</div>
+				</div>
+			</div> -->
+
+		</div>
+		<textarea name="" id="string"  class="string" autofocus="autofocus" placeholder="在这里写下要同步的文字"></textarea>
+
+	</div>
+
+	<div class="under">
+		<input type="text" id="passcode" class="passcode" placeholder="你的取字码">
+	</div>
+	<!-- 初次进来的提示 -->
+	<div class="first_hint_cover"></div>
+	<!-- 引导的步骤 -->
+	<div class="hint hint1">
+		<div class="btn btn1" onclick="hint2()">
+			我是新手，三步告诉我用法
+		</div>
+		<div class="btn btn2" onclick="closeHint()">
+			我是老鸟，直接跳过
+		</div>
+	</div>
+	<div class="hint hint2">
+		<div class="note note1">
+			<p><span class="note_num">1.</span>在这里写下你要同步的文字</p>
+		</div>
+		<img src="image/jiantou.jpeg" class="jiantou jiantou1" alt="">
+		<div class="btn btn3" onclick="hint3()">
+			了解
+		</div>
+	</div>
+	<div class="hint hint3">
+		<div class="note note2">
+			<p><span class="note_num">2.</span>你会得到一个专属取字码</p>
+			<p>它是你取字的钥匙</p>
+			<p>取字码会自动存储，所以不用担心忘记</p>
+		</div>
+		<img src="image/jiantou.jpeg" class="jiantou jiantou2" alt="">
+		<div class="btn btn4" onclick="hint4()">
+			了解，最后一步
+		</div>
+	</div>
+	<div class="hint4">
+		<div class="note note3">
+			<p>方便好用的代价，是安全</p>
+			<p>请不要在这里记录敏感信息</p>
+		</div>
+		<div class="btn btn5" onclick="closeHint()">
+			分かった。
+		</div>
+	</div>
+
+	<!-- jquery -->
+	<script src="script/jq.js"></script>
+	<script src="script/sweetalert-core.js"></script>
+	<script src="script/sweetalert2.min.js"></script>
+	<!-- clipboard -->
+	<!-- <script src="script/clipboard.js"></script>  -->
+	<!-- my own code -->
+	<script src="script/index.js"></script>
+	<!-- stat -->
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1267348870'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267348870' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>

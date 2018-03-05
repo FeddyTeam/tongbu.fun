@@ -1,0 +1,253 @@
+html,body{
+	height: 100%;
+	margin: 0;
+}
+/*.string{
+	display: block;
+	width: 460px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -230px;
+	margin-top: -200px;
+	text-align: top;
+}*/
+.uper{
+	height: 66.66%;
+	background-color: #f5f5f5;
+	text-align: center;
+	box-sizing: border-box;
+}
+.uper .nav{
+	height: 10%;
+	box-shadow: 0px 2px 2px #ddd;
+	background-color: #fff;
+	margin-bottom: 2.5%;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 200px;
+	padding-right: 18px;
+}
+.nav .logo{
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	margin-top: -35px;
+}
+.nav .aim{
+	line-height: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 200px;
+	top: 50%;
+	margin-top: -7px;
+	color: #555;
+}
+.nav .history{
+	height: 50%;
+	float: right;
+	top: 25%;
+	position: relative;
+	cursor: pointer;
+}
+.uper .string{
+	width: 80%;
+	height: 80%;
+	display: inline-block;
+	background: none;
+	border: none;
+	vertical-align: top;
+	background-color: #fff;
+	box-shadow: -2px 2px 4px #ddd;
+	box-sizing: border-box;
+	padding: 20px 40px;
+	border-radius: 4px;
+	font-family: Microsoft Yahei;
+
+}
+.uper .string:focus{
+	outline: none;
+  	border: none;
+}
+.uper .history-list{
+	width: 300px;
+	height: 500px;
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 102%;
+	/*background-color: red;*/
+	box-shadow: -2px 2px 4px #ddd;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 0 10px;
+	overflow: auto;
+}
+.history-list .one-history{
+	text-align: left;
+	padding: 5px;
+	color: #444;
+	border-bottom: 1px solid #ddd;
+}
+.one-history span{
+	text-align: left;
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.one-history .btn{
+	font-size: 12px;
+	width: 34px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid #666;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.one-history .mark-time{
+	font-size: 12px;
+	float: right;
+	position: relative;
+	top: -16px;
+}
+.under{
+	height: 33.33%;
+	background-color: #376956;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 53px;
+    /*background: linear-gradient(to bottom,#199475,#044D22);*/
+}
+.under .passcode{
+	width: 300px;
+    height: 50px;
+    background: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.under .passcode:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+}
+:-ms-input-placeholder{
+	color: #fff;
+}
+/*屏蔽统计按钮*/
+a[title="站长统计"]{
+	display: none;
+}
+
+.first_hint_cover{
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #000;
+	opacity: 0.5;
+	display: none;
+}
+.hint{
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+}
+.note{
+	width: 300px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
+.note_num{
+	font-size: 32px;
+}
+.btn{
+	width: 260px;
+	height: 40px;
+	/* background-color: #409EFF; */
+	background-color: #E6A23C;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	cursor: pointer;
+	position: absolute;
+	display: none;
+}
+.jiantou{
+	width: 100px;
+}
+.btn1{
+	left: 100px;
+	top: -100px;
+}
+.btn2{
+	right: 100px;
+	top: 1000px;
+}
+
+
+.note1{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top: -100px;
+}
+.jiantou1{
+	position: absolute;
+	left: 120px;
+	top: -100px;
+	transform: rotate(150deg);
+}
+.btn3{
+	left: 50%;
+	margin-left: -130px;
+	top: -100px;
+}
+
+.note2{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	bottom: -100px;
+	text-align: left;
+}
+.btn4{
+	left: 50%;
+	margin-left: -130px;
+	bottom: -100px;
+}
+.jiantou2{
+	position: absolute;
+	left: 50%;
+	margin-left: 50px;
+	bottom: -100px;
+	transform: rotate(150deg);
+}
+
+
+.note3{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	bottom: -100px;
+}
+.btn5{
+	left: 50%;
+	margin-left: -130px;
+	bottom: -100px;
+}
